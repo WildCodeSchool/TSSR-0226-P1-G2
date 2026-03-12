@@ -1,12 +1,12 @@
 # TSSR-0226-P1-G2
 
 ## Sommaire
-[Présentation du projet](#Présentation-du-projet)
-[Membres du groupe par sprint](#Membres-du-groupe-par-sprint)
-[Choix techniques](#Choix-techniques)
-[Difficultés rencontrées](#Difficultes-rencontrees)
-[Solutions trouvées](#Solutions-trouvees)
-[Améliorations possibles](#Ameliorations-possibles)
+- [Présentation du projet](#Présentation-du-projet)
+- [Membres du groupe par sprint](#Membres-du-groupe-par-sprint)
+- [Choix techniques](#Choix-techniques)
+- [Difficultés rencontrées](#Difficultes-rencontrees)
+- [Solutions trouvées](#Solutions-trouvees)
+- [Améliorations possibles](#Ameliorations-possibles)
 
 
 ## Présentation du projet
@@ -71,21 +71,24 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 
 ### Logiciels
 
-Client Windows :
-- RDP / PuTTY
-Client Linux :
-- openSSH
+- Client Windows :
+    - RDP / PuTTY
+- Client Linux :
+    - openSSH
 
-Serveur Windows :
-- VNC
-Serveur Debian :
-- openSSH
+- Serveur Windows :
+    - VNC
+- Serveur Debian :
+    - openSSH
 
 
 ## Difficultés rencontrées
 <span id="Difficultes-rencontrees"></span>
+
+
 ## Solutions trouvées
 <span id="Solution-trouvees"></span>
+
 
 ## Améliorations possibles
 <span id="Amelioration-possibles"></span>
