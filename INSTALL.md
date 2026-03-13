@@ -48,7 +48,7 @@ ss -tnlp | grep :22
 ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
 ```
 
-![Choisir le dossier de destination de la clé.png](Ressources/Choisir le dossier de destination de la clé.png)
+![Choisir le dossier de destination.png](Ressources/Choisir le dossier de destination de la clé.png)
 
 **2** - Choisir le **PassPhrase** qui viendra protéger la clé SSH
 
