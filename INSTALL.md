@@ -48,7 +48,7 @@ ss -tnlp | grep :22
 ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
 ```
 
-![Trouver le bon chemin](Ressources/Choisir le dossier de destination de la clé.png)
+![Trouver le bon chemin](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/2531796e2535b3c6adc28f1986d19019920709b7/Ressources/Choisir%20le%20dossier%20de%20destination%20de%20la%20cl%C3%A9.png) 
 
 **2** - Choisir le **PassPhrase** qui viendra protéger la clé SSH
 
