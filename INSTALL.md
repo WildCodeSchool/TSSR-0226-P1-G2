@@ -26,7 +26,7 @@ sudo systemctl status ssh --no-pager
 
 **4** - Lecture du Statut : *Active running* (ou *enabled*) en <font color="#00b050">vert</font> indique que le daemon OpenSSH est bien actif dans le système
 
-![[4th - Active running (ou enabled) en vert indique que le daemon OpenBSD Secure Shell server est bien actif dans le système..png]]
+![_Active_running_ou_enabled_en_vert_indique_que_le_daemon_OpenBSD_Secure_Shell_server_est_bien_actif_dans_le_systeme](Ressources/4th_-_Active_running_ou_enabled_en_vert_indique_que_le_daemon_OpenBSD_Secure_Shell_server_est_bien_actif_dans_le_systeme..png)
 
 **Optionnel 1** - Si un pare-feu UFW est utilisé, entrer cette Commande pour autoriser SSH
 
