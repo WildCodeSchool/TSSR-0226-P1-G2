@@ -30,7 +30,7 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 | Camille | PO         | Etudier la solution PuTTY et l'installer sur le client Windows, documenter INSTALL.md, Maquette README.ME |
 | Saiah   | SM         | Etudier la solution VNC et l'installer sur le serveur Windows                                             |
 | Aymeric | Technicien | Etudier la solution OpenSSH et l'installer sur le client Linux, documenter INSTALL.md                     |
-| Patrick | Technicien | Etudier la solution RDP et l'installer sur le client Windows                                             |
+| Patrick | Technicien | Etudier la solution RDP et l'installer sur le client Windows                                              |
 
 ### Sprint 2
 
@@ -85,6 +85,8 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 ## Difficultés rencontrées
 <span id="Difficultes-rencontrees"></span>
 
+ - Se connecter avec le nom de la machine distante (au lieu de saisir l'adresse IP)
+ - Le fond d'écran de la machine dont on prend le crontrôle à distance ne s'affiche pas correctement (écran noir)
 
 ## Solutions trouvées
 <span id="Solution-trouvees"></span>
