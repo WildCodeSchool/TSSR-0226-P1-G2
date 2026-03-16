@@ -111,44 +111,9 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
 ### INSTALL.md pour le logiciel TightVNC
 
 
-## Prérequis technique pour windows server 2025
-
- **CPU Minimum**:
-- Processeur 1,4 GHz 64 bits
-    
-- Compatible avec le jeu d’instructions x64
-
-**RAM Minimum: 
-- 2 Go pour Server Core
-    
-- 2 Go pour Serveur avec interface de bureau, 4 Go recommandés
-
-**Stockage Minimum:**
-- 32 Go d’espace
-
-**Réseau Minimum**:
-- Adaptateur Ethernet pouvant atteindre un débit d’au moins 1 gigaoctet par seconde.
-    
-- Conforme à la spécification de l’architecture PCI Express.
-
-
-## Prérequis technique minimum pour Ubuntu LTS 24.04
-
- **CPU** minimun
-	 - Processeur 2 GHz double cœur ou plus ;
-
- **RAM** minimum
-	- 4 Go de mémoire vive (8 Go recommandés) ;
-
-Stockage minimum
-	 - 25 Go d'espace disque disponible ;
- **Carte graphique :**
-    - Carte graphique compatible avec une résolution 1024×768 minimum ;
-	
-**Connectique **
-	- Clé USB de 8 Go pour l'installation.
-
--  Une souris (ou touchpad sur PC)
+| Prérequis technique pour windows server 2025                                                                                                                                                                                                                                                                                                                                                                                                                                             | Prérequis technique minimum pour Ubuntu LTS 24.04                                                                                                                                                                                                                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **CPU Minimum**:<br>    - Processeur 1,4 GHz 64 bits<br>    - Compatible avec le jeu d’instructions x64<br><br>**RAM Minimum :**<br>    - 2 Go pour Server Core<br>    - 2 Go pour Serveur avec interface de bureau, 4 Go recommandés<br><br>**Stockage Minimum :**<br>    - 32 Go d’espace<br><br>**Réseau Minimum :** <br>    - Adaptateur Ethernet pouvant atteindre un débit d’au moins 1 gigaoctet par seconde.<br>    - Conforme à la spécification de l’architecture PCI Express. | **CPU Minimum :**<br>	 - Processeur 2 GHz double cœur ou plus ;<br><br> **RAM Minimum :** <br>	- 4 Go de mémoire vive (8 Go recommandés) ;<br><br>**Stockage minimum :**<br>	 - 25 Go d'espace disque disponible<br>	 <br> **Carte graphique :**<br>    - Carte graphique compatible avec une résolution 1024×768 minimum ;<br>	<br>**Connectique :**<br>	- Clé USB de 8 Go pour l'installation.<br>    - Une souris (ou touchpad sur PC) |
 
 
 ## Installation de TightVNC JavaViewer sur Ubuntu
