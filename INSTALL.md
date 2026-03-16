@@ -104,7 +104,7 @@ ____
 
 
 
-### INSTALL.md pour le logiciel TightVNC
+## Installation TightVNC
 
 
 | Prérequis technique pour windows server 2025                                                                                                                                                                                                                                                                                                                                                                                                                                             | Prérequis technique minimum pour Ubuntu LTS 24.04                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -141,7 +141,7 @@ ____
 ____
 
 
-## Installation de TightVNC  server sur Windows server 2025
+## Installation de TightVNC server sur Windows server 2025
 
 **1**. Aller sur le site de TightVNC et télécharger l'application : Installer for windows -64bits
 
@@ -178,3 +178,27 @@ ____
 
 
 ## FAQ - TightVNC
+
+
+
+____
+
+
+
+## Installation RDP
+
+**1** - Accéder au client RDP : 
+		- Depuis le clavier, appuyez sur les touches Win + R
+		- Saisissez **mstsc** ou bien, dans le menu démarrer, recherchez « **Connexion Bureau à Distance** »
+
+**2** - Utilisation :
+		- Saisissez l’adresse IP ou le nom de la machine distante
+		- Cliquez sur connexions
+		- Saisissez les identifiants utilisateur (nom utilisateur & mot de passe)
+		- Cliquez sur Ok pour établir la connexion
+
+**3** - Configuration du PC pour Accepter les Connexions RDP 
+Pour recevoir les connexions RDP sur son ordinateur. Il faut activer le Bureau à Distance :
+		- Accédez aux paramètres Windows en appuyant sur les touches **Win + I**.
+	    - Allez dans **Système** puis **Bureau à distance**.
+	    - Activez l’option **Bureau à distance**.
