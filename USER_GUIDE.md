@@ -25,15 +25,30 @@ Pour utiliser PuTTY et vous connecter au serveur Debian vous avez besoin de ces 
 
 ### Fonctionnalités complémentaires
 
+Voici les options principales à connaitre, avant toute chose il est important de noter que pour garder les modifications vous devrez revenir à la page principale "Session", sélectionner le profil de session et cliquer sur "Save" !
+
 **Enregistrement de Logs :**
 
+Pour enregistrer les logs d'une session vous devez vous rendre dans "Logging" et modifierez :
 
+- 1 - le type de logs (Nous recommandons 2 modes : "All session output" qui enregistrera tous les charactères lié à la session ou "Printable output" qui enregistrera uniquement les charactères d'affichage)
+- 2 - Le nom de fichier : Vous pouvez définir le lieu d'enregistrement de vos logs et le nom standard avec &d = jour, &m = mois, &y = année, &t = heure
+
+![lien à faire]()
 
 **Modification de la police d'écriture :**
 
+Dans la rubrique "Appearance" vous pouvez modifier l'affichage de votre terminal pour plus de confort. Vous pouvez notamment modifier la police d'écriture et sa taille en cliquant sur "Change" dans "Font settings".
+
+![lien à faire]()
+
 **Ajout d'un nom de machine au terminal :**
 
-## FAQ
+Enfin dans la rubrique "Behaviour" nous vous invitons à reprendre le nom de votre session dans la rubrique "Windows title", cela aura pour effet d'ajouter un titre en haut de la fenêtre du shell avant validation de la connexion avec le serveur. Vous permettant ainsi de toujours savoir vers quelle machine vous vous apprêtez à vous connecter. 
+
+![lien à faire]()
+
+### FAQ PuTTY
 
 ## FAQ-RDP
 ### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
