@@ -155,23 +155,23 @@ Stockage minimum
 
 **1**. Verifier que nous avons java via le terminal
 
-![[Pasted image 20260316112111.png]] https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%201.png
+![[Pasted image 20260316112111.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%201.png)
 
 **2**. Installation de Java car il n'est pas présent 
 
-![[Pasted image 20260316112220.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%202.png
+![[Pasted image 20260316112220.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%202.png)
 
 **3**. Verification de la presence de Java a nouveau
 
-![[Pasted image 20260316112248.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%203.png
+![[Pasted image 20260316112248.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%203.png)
 
 **4**. Je me rend sur le site de TightVNC pour telecharger le client VNC qui est le suivant : TightVNC Java Viewer
 
-![[Pasted image 20260316112331.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%204.png
+![[Pasted image 20260316112331.png]](_https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%204.png)
 
 **5**. Une fois telechargé , je le decompresse via le terminal
 
-![[Pasted image 20260316112532.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%205.png
+![[Pasted image 20260316112532.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%205.png)
 
 **6**. Le logiciel est installé et prêt a l'emploi
 
@@ -183,36 +183,36 @@ Stockage minimum
 
 **1**. Aller sur le site de TightVNC et télécharger l'application : Installer for windows -64bits
 
-![[Pasted image 20260316120706.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%201.png
+![[Pasted image 20260316120706.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%201.png)
 
 **2**. Lancer l'executable et commencer l'installation de TightVNC server
 
-![[Pasted image 20260316120750.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%202.png
+![[Pasted image 20260316120750.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%202.png)
 
 **3**. Accepter les thermes de la license *
 
-![[Pasted image 20260316120822.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%203.png
+![[Pasted image 20260316120822.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%203.png)
 
 **4**. Choisir le setup "custom" et ne selectionner que TightVNC server
 
-![[Pasted image 20260316120851.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%204.png
-![[Pasted image 20260316120925.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%205.png
+![[Pasted image 20260316120851.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%204.png)
+![[Pasted image 20260316120925.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%205.png)
 
 **5**. Pret a etre installé et on lance l'install 
 
-![[Pasted image 20260316121015.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%206.png
+![[Pasted image 20260316121015.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%206.png)
 
 **6**. Definir un mot de passe pour sécuriser le lance et l'autorisation de controle a distance
 
-![[Pasted image 20260316121106.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%207.png
+![[Pasted image 20260316121106.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%207.png)
 
 **7**. L'installation est complete 
 
-![[Pasted image 20260316121153.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%208.png
+![[Pasted image 20260316121153.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%208.png)
 
 **8**. Verification du lancement du serveur avec demande d'authentification
 
-![[Pasted image 20260316121234.png]]https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%209.png
+![[Pasted image 20260316121234.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20windows%20server%202025%209.png)
 
 
 ## FAQ - TightVNC
