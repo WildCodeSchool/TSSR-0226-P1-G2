@@ -5,7 +5,33 @@
 - *FAQ*
 ____
 
-# Installation OPENSSH
+## Installation PuTTY
+
+Prérequis techniques :
+- Windows 
+
+Vous pouvez télécharger la dernière version de PuTTY directement depuis le [Miscrosoft Store](https://apps.microsoft.com/detail/xpfnzksklbp7rj?hl=fr-FR&gl=FR) ou télécharger l'installeur depuis [le site officiel de Putty](https://putty.org/index.html)
+
+Si vous utilisez Microsoft Store vous pouvez suivre l'installation à partir de l'étape 3, sinon voici la procédure :
+
+**1** -  Sur la page d'accueil cliquer sur "Download PuTTY"
+
+**2** -  Dans la rubrique "Package Files" cliquer sur le premier lien "putty-64bit-0.83-installer.msi" afin de télécharger l'installeur 
+
+**3** -  Lancer l'installation en double-cliquant sur le fichier téléchargé, cliquer sur "Next" sur la première page
+
+**4** -  Sélectionner le chemin d'installation du logiciel (Ne modifier qu'en cas d'installation particulière)
+
+**5** -  Pour ajouter un raccourci sur le bureau, dans la page "Product Features" cliquer sur le second titre "Add shortcut to PuTTY on the desktop" et sélectionner "Will be installed on local hard drive"
+
+**6** -  Cliquer sur "Yes" afin d'accepter l'installation du logiciel
+
+**7** -  Cliquer sur "Finish" afin de terminer l'installation, penser à décocher "view Readme File" pour ne pas déclencher l'ouverture du manuel d'utilisation - si non souhaité
+
+
+
+
+## Installation OPENSSH
 **1** -  Lancer la commande suivante pour installer <u>OpenSSH</u> sur le serveur
 
 ``` bash
