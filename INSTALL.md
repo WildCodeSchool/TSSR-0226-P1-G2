@@ -187,6 +187,11 @@ ____
 
 ## Installation RDP
 
+**Prérequis techniques :**
+		- RDP est intégré sur Windows 11 et Windows Server 2022-2025
+
+____
+
 **1** - Accéder au client RDP : 
 		- Depuis le clavier, appuyez sur les touches Win + R
 		- Saisissez **mstsc** ou bien, dans le menu démarrer, recherchez « **Connexion Bureau à Distance** »
