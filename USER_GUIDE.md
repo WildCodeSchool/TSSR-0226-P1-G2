@@ -98,9 +98,9 @@ Pour utiliser deux écrans ou plus, procédez comme suit :
 
 
 
+------------------------------------------------
 
-
-# Utilisation de base
+# Utilisation de TightVNC
 Configuration de base pour utiliser les  fonctionnalités de TightVNC server.
 
 
