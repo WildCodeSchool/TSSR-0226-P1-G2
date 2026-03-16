@@ -27,20 +27,20 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 
 | Membres | Rôles      | Missions                                                                                                  |
 | ------- | ---------- | --------------------------------------------------------------------------------------------------------- |
-| Camille | PO         | Etudier la solution PuTTY et l'installer sur le client windows, documenter INSTALL.md, Maquette README.ME |
-| Saiah   | SM         |                                                                                                           |
-| Aymeric | Technicien |                                                                                                           |
-| Patrick | Technicien |                                                                                                           |
+| Camille | PO         | Etudier la solution PuTTY et l'installer sur le client Windows, documenter INSTALL.md, Maquette README.ME |
+| Saiah   | SM         | Etudier la solution VNC et l'installer sur le serveur Windows                                             |
+| Aymeric | Technicien | Etudier la solution OpenSSH et l'installer sur le client Linux, documenter INSTALL.md                     |
+| Patrick | Technicien | Etudier la solution RDP et l'installer sur le client Windows                                             |
 
 ### Sprint 2
 
 
 | Membres | Rôles      | Missions |
 | ------- | ---------- | -------- |
-|         | PO         |          |
-|         | SM         |          |
-|         | Technicien |          |
-|         | Technicien |          |
+| Aymeric | PO         | Documenter INSTALL.md, documenter FAQ         |
+| Patrick | SM         | Documenter INSTALL.md        |
+| Saiah   | Technicien | Documenter INSTALL.md         |
+| Camille | Technicien | Documenter INSTALL.md, documenter FAQ        |
 
 
 
