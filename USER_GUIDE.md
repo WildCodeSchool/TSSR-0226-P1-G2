@@ -100,34 +100,33 @@ Pour utiliser deux écrans ou plus, procédez comme suit :
 
 
 
-### Utilisation de base
+# Utilisation de base
 Configuration de base pour utiliser les  fonctionnalités de TightVNC server.
-
 
 
 **1.** Ouverture du panneau de configuration de TightVNC server.
 
-![[Pasted image 20260316191546.png]]
+![[Pasted image 20260316191546.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-1.png?raw=true)
 
 **2.** Demande d'authentification par mot de passe pour entrer dans le panneau de configuration.
 
-![[Pasted image 20260316191801.png]]
+![[Pasted image 20260316191801.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-2.png?raw=true)
 
 **3.** Le panneau de configuration s'ouvre et s'affiche ainsi.
 
-![[Pasted image 20260316191847.png]]
+![[Pasted image 20260316191847.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-3.png?raw=true)
 
 Il est possible de modifier certain paramètres et surtout d'avoir le port de connexion par lequel le client TightVNC va passé. Ici il s'agit du port 5900.
 
 **4.** Vérification de l'état de marche du serveur via la liste de services.
 
-![[Pasted image 20260316192319.png]]
+![[Pasted image 20260316192319.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-5.png?raw=true)
 
 Le statut est bien en état de marche , vérifié par "running".
 
 **5.** Possibilité de stopper, démarrer, mettre en pause, le lancer ou non au démarrage de Windows le server via un clic droit et aller dans "propriétés".
 
-![[Pasted image 20260316192710.png]]
+![[Pasted image 20260316192710.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-6.png?raw=true)
 
 
 #Utilisation 
@@ -136,33 +135,36 @@ Configuration de base pour utiliser les  fonctionnalités de TightVNC Java viewe
 
 **1.** Le fichier a éxécuter se trouve dans le fichier Downloads
 
-![[Pasted image 20260316202956.png]]
+![[Pasted image 20260316202956.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Lancement-TightVNC-client-Ubuntu-1.png?raw=true)
 
 **2.** Lancement via le terminal de TightVNC Java viewer avec le commande :
 ''' java -jar tightvnc-jviewer.jar
 
 
-![[Pasted image 20260316200000.png]]
+![[Pasted image 20260316200000.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Lancement-TightVNC-client-Ubuntu-2.png?raw=true)
 
 Une petite fenêtre de lancement de connexion s'affiche et me propose différentes options pour pouvoir se connecter au serveur distant.
 
-**3.** Windows server 2025 est bien est fonction avec TightVNC server en marche.
+**3.** Windows server 2025 est bien en fonction avec TightVNC server en marche.
 
-![[Pasted image 20260316201637.png]]
+![[Pasted image 20260316201637.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Lancement-TightVNC-client-Ubuntu-2.png?raw=true)
 
 **4.** Je me connecte en renseignant l'adresse IP du serveur distant : 172.16.10.5, puis je m'assure de renseigner le bon port d'écoute qui est le 5900.
 A l'aide de ces deux renseignement je prends le contrôle a distant de la machine (ici Windows server 2025) afin de pouvoir assister l'utilisateur
 
-![[Pasted image 20260316203419.png]]
+![[Pasted image 20260316203419.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Lancement-TightVNC-client-Ubuntu-3.png?raw=true)
 
-**5.** Prise de contrôle a distance en cours.
+**5.** Demande d'authentification afin de pouvoir etre autorisé a prendre le controle 
 
-![[Pasted image 20260316204251.png]]
+![[Pasted image 20260316213319.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Lancement-TightVNC-client-Ubuntu-4.png?raw=true)
+
+**6.** Prise de contrôle a distance en cours.
+
+![[Pasted image 20260316204251.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Lancement-TightVNC-client-Ubuntu-5.png?raw=true)
 
 
 Le point symbolisant le client TightVNC et la souris le systeme d'exploitation controlé par TightVNC.
 L'utilisateur ici garde le contrôle de son OS.
-
 
 
 
