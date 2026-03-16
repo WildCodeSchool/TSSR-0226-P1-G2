@@ -16,10 +16,10 @@ Voici quelques solutions possibles aux problèmes courants que vous pouvez renco
 - **Il y a un problème avec le réseau.** Vérifiez que vous disposez d’une connexion Internet.
     
 - **Le port Bureau à distance peut être bloqué par un pare-feu.** Si vous utilisez le Pare-feu Windows, procédez comme suit :
-    - 1. Ouvrez le Pare-feu Windows.
-    - 2. Sélectionnez **Autoriser une application ou une fonctionnalité via le Pare-feu Windows**.
-    - 3. Sélectionnez **Modifier les paramètres**. Vous pouvez être invité à fournir un mot de passe administrateur ou à confirmer votre choix.        
-    - 4. Sous **applications et fonctionnalités autorisées**, sélectionnez Bureau à distance, puis appuyez ou sélectionnez **OK**.
+  1. Ouvrez le Pare-feu Windows.
+  2. Sélectionnez **Autoriser une application ou une fonctionnalité via le Pare-feu Windows**.
+  3. Sélectionnez **Modifier les paramètres**. Vous pouvez être invité à fournir un mot de passe administrateur ou à confirmer votre choix.        
+  4. Sous **applications et fonctionnalités autorisées**, sélectionnez Bureau à distance, puis appuyez ou sélectionnez **OK**.
 
         Si vous utilisez un autre pare-feu, vérifiez que le port du Bureau à distance (généralement 3389) est ouvert
 - **Le PC distant peut autoriser uniquement les PC à se connecter avec l’authentification au niveau du réseau.**
