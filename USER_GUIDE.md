@@ -6,6 +6,54 @@
 
 ## FAQ
 
+## FAQ-RDP
+### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
+
+Voici quelques solutions possibles aux problèmes courants que vous pouvez rencontrer lors de la tentative de connexion à un PC distant. Si ces solutions ne fonctionnent pas, vous trouverez plus d’aide sur le site web [Microsoft Community](https://answers.microsoft.com/).
+
+- **Le PC distant est introuvable.** Vérifiez que vous disposez du bon nom du PC, puis vérifiez si vous avez entré ce nom correctement. Si vous ne pouvez toujours pas vous connecter, essayez d’utiliser l’adresse IP du PC distant au lieu du nom du PC.
+    
+- **Il y a un problème avec le réseau.** Vérifiez que vous disposez d’une connexion Internet.
+    
+- **Le port Bureau à distance peut être bloqué par un pare-feu.** Si vous utilisez le Pare-feu Windows, procédez comme suit :
+    1. Ouvrez le Pare-feu Windows.
+    2. Sélectionnez **Autoriser une application ou une fonctionnalité via le Pare-feu Windows**.
+    3. Sélectionnez **Modifier les paramètres**. Vous pouvez être invité à fournir un mot de passe administrateur ou à confirmer votre choix.        
+    4. Sous **applications et fonctionnalités autorisées**, sélectionnez Bureau à distance, puis appuyez ou sélectionnez **OK**.
+
+        Si vous utilisez un autre pare-feu, vérifiez que le port du Bureau à distance (généralement 3389) est ouvert.
+- **Les connexions à distance peuvent ne pas être configurées sur le PC distant.** Pour résoudre ce problème, faites défiler jusqu’à [Comment configurer un PC pour le Bureau à distance ?](https://learn.microsoft.com/fr-fr/windows-server/remote/remote-desktop-services/remotepc/remote-pc-connections-faq#how-do-i-set-up-a-pc-for-remote-desktop-) question dans cet article.
+
+- **Le PC distant peut autoriser uniquement les PC à se connecter avec l’authentification au niveau du réseau.**
+
+- **Le PC distant peut être désactivé.** Vous ne pouvez pas vous connecter à un PC désactivé, endormi ou en veille prolongée. Assurez-vous que les paramètres de veille prolongée et de mise en veille prolongée sur le PC distant sont définis sur **Jamais** (la veille prolongée n’est pas disponible sur tous les PC.).
+
+### Pourquoi ne puis-je pas trouver ou me connecter à mon PC ?
+
+Vérifiez les éléments suivants :
+
+- Le PC est-il allumé et éveillé ?
+- Avez-vous entré le nom ou l’adresse IP approprié ?
+- Le PC est-il sur un autre réseau ? Avez-vous configuré le PC pour permettre aux connexions externes via ?
+- Vous vous connectez à une version de Windows prise en charge ?
+
+### Pourquoi ne puis-je pas me connecter à un PC distant ?
+
+Si vous pouvez voir l’écran de connexion du PC distant, mais que vous ne pouvez pas vous connecter, vous n’êtes peut-être pas ajouté au groupe Utilisateurs Bureau à distance ou à un groupe avec des droits d’administrateur sur le PC distant. Demandez à votre administrateur système de vous ajouter au groupe approprié.
+### Quelles méthodes de connexion sont prises en charge pour les réseaux d’entreprise ?
+
+Si vous souhaitez accéder à votre bureau office à partir de l’extérieur de votre réseau d’entreprise, votre entreprise doit vous fournir un moyen d’accès à distance. Le client Bureau à distance prend actuellement en charge les méthodes de connexion suivantes :
+
+- Passerelle Terminal Server ou passerelle Bureau à distance
+- Accès web Bureau à distance
+- VPN (via les options VPN intégrées iOS)
+
+### Comment utiliser tous mes moniteurs ?
+
+Pour utiliser deux écrans ou plus, procédez comme suit :
+1. Cliquez avec le bouton droit sur le Bureau à distance pour lequel vous souhaitez activer plusieurs écrans, puis sélectionnez **Modifier**.
+2. Activez **Utiliser tous les moniteurs** et plein écran.
+
 ## FAQ-VNC
 ### Quelles versions de Windows TightVNC supporte-t-il ?
 
