@@ -1,10 +1,16 @@
-*On doit avoir dans cette documentation (pour la tâche principale et secondaire) :*
-- *Prérequis techniques*
+- *Prérequis techniques* :
+  
 - *Installation/Mise en place de la solution (explication étape par étape, ligne de code, copie d’écran, etc.) sur le client et/ou le serveur*
   - Installation Putty
   - Installation OPENSSH
   - Installation de TightVNC client et Serveur
-- *FAQ*
+  - Installation RDP
+ 
+- *FAQ* :
+  - Putty
+  - OpenSSH
+  - TightVNC Client / Serveur
+  - RDP 
 ____
 
 ## Installation PuTTY
@@ -14,6 +20,8 @@ ____
 - *Une version pour système 32 bits est à disposition sur le site internet*
 
 Vous pouvez télécharger la dernière version de PuTTY directement depuis le [Miscrosoft Store](https://apps.microsoft.com/detail/xpfnzksklbp7rj?hl=fr-FR&gl=FR) ou télécharger l'installeur depuis [le site officiel de Putty](https://putty.org/index.html)
+
+____
 
 Si vous utilisez Microsoft Store vous pouvez suivre l'installation à partir de l'étape 3, sinon voici la procédure :
 
@@ -47,7 +55,13 @@ Si vous utilisez Microsoft Store vous pouvez suivre l'installation à partir de 
 
 ###FAQ - PuTTY
 
+____
+
 ## Installation OPENSSH
+
+**Prérequis techniques :**
+  - Bénéficier des droits Administrateur
+
 **1** -  Lancer la commande suivante pour installer <u>OpenSSH</u> sur le serveur
 
 ``` bash
@@ -81,30 +95,12 @@ sudo ufw allow OpenSSH
 ``` bash
 ss -tnlp | grep :22
 ```
-
-# Création d'une clé SSH
-
-**1** - Entrer la commande suivante puis choisir le dossier de destination de la clé (en rouge le <font color="#ff0000">champ d'écriture</font> / en vert le <font color="#00b050">chemin par défaut</font> si aucune donnée n'est entrée)
-
-``` bash
-ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
-```
-
-![Trouver le bon chemin](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/2531796e2535b3c6adc28f1986d19019920709b7/Ressources/Choisir%20le%20dossier%20de%20destination%20de%20la%20cl%C3%A9.png) 
-
-**2** - Choisir le **PassPhrase** qui viendra protéger la clé SSH
-
-**3** - Entrer à nouveau le **PassPhrase** pour valider la création de la clé SSH
-
-**4** - Copiez automatiquement votre clé publique vers le serveur avec ssh-copy-id
-
-``` bash
-ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
-```
+## FAQ - OpenSSH
 
 
 
 
+____
 
 
 
@@ -115,6 +111,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CPU Minimum**:<br>    - Processeur 1,4 GHz 64 bits<br>    - Compatible avec le jeu d’instructions x64<br><br>**RAM Minimum :**<br>    - 2 Go pour Server Core<br>    - 2 Go pour Serveur avec interface de bureau, 4 Go recommandés<br><br>**Stockage Minimum :**<br>    - 32 Go d’espace<br><br>**Réseau Minimum :** <br>    - Adaptateur Ethernet pouvant atteindre un débit d’au moins 1 gigaoctet par seconde.<br>    - Conforme à la spécification de l’architecture PCI Express. | **CPU Minimum :**<br>	 - Processeur 2 GHz double cœur ou plus ;<br><br> **RAM Minimum :** <br>	- 4 Go de mémoire vive (8 Go recommandés) ;<br><br>**Stockage minimum :**<br>	 - 25 Go d'espace disque disponible<br>	 <br> **Carte graphique :**<br>    - Carte graphique compatible avec une résolution 1024×768 minimum ;<br>	<br>**Connectique :**<br>	- Clé USB de 8 Go pour l'installation.<br>    - Une souris (ou touchpad sur PC) |
 
+____
 
 ## Installation de TightVNC JavaViewer sur Ubuntu
 
@@ -141,7 +138,7 @@ ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
 **6**. Le logiciel est installé et prêt a l'emploi
 
 
-
+____
 
 
 ## Installation de TightVNC  server sur Windows server 2025
