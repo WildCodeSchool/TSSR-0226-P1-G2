@@ -96,6 +96,117 @@ ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
 
 **4** - Copiez automatiquement votre clé publique vers le serveur avec ssh-copy-id
 
+
+
+##**INSTALL.md pour le logiciel TightVNC**##
+
+
+##**Prérequis technique pour windows server 2025**
+
+ **CPU Minimum**:
+- Processeur 1,4 GHz 64 bits
+    
+- Compatible avec le jeu d’instructions x64
+
+**RAM Minimum: 
+- 2 Go pour Server Core
+    
+- 2 Go pour Serveur avec interface de bureau, 4 Go recommandés
+
+**Stockage Minimum:**
+- 32 Go d’espace
+
+**Réseau Minimum**:
+- Adaptateur Ethernet pouvant atteindre un débit d’au moins 1 gigaoctet par seconde.
+    
+- Conforme à la spécification de l’architecture PCI Express.
+
+
+## **Prérequis technique minimum pour Ubuntu LTS 24.04**
+
+- **CPU** minimun
+	 - Processeur 2 GHz double cœur ou plus ;
+
+**RAM** minimum
+	- 4 Go de mémoire vive (8 Go recommandés) ;
+
+Stockage minimum
+	 - 25 Go d'espace disque disponible ;
+ **Carte graphique :**
+    - Carte graphique compatible avec une résolution 1024×768 minimum ;
+	
+**Connectique **
+	- Clé USB de 8 Go pour l'installation.
+
+-  Une souris (ou touchpad sur PC)
+
+
+##Installation de TightVNC JavaViewer sur Ubuntu##
+
+**1**. Verifier que nous avons java via le terminal
+
+![[Pasted image 20260316112111.png]] 
+
+**2**. Installation de Java car il n'est pas présent 
+
+![[Pasted image 20260316112220.png]]
+
+**3**. Verification de la presence de Java a nouveau
+
+![[Pasted image 20260316112248.png]]
+
+**4**. Je me rend sur le site de TightVNC pour telecharger le client VNC qui est le suivant : TightVNC Java Viewer
+
+![[Pasted image 20260316112331.png]]
+
+**5**.Une fois telechargé , je le decompresse via le terminal
+
+![[Pasted image 20260316112532.png]]
+
+**6**. Le logiciel est installé et prêt a l'emploi
+
+
+
+
+
+## Installation de TightVNC  server sur Windows server 2025##
+
+**1**. Aller sur le site de TightVNC et télécharger l'application : Installer for windows -64bits
+
+![[Pasted image 20260316120706.png]]
+
+**2**. Lancer l'executable et commencer l'installation de TightVNC server
+
+![[Pasted image 20260316120750.png]]
+
+**3**. Accepter les thermes de la license *
+
+![[Pasted image 20260316120822.png]]
+
+**4**. Choisir le setup "custom" et ne selectionner que TightVNC server
+
+![[Pasted image 20260316120851.png]]
+![[Pasted image 20260316120925.png]]
+
+**5**. Pret a etre installé et on lance l'install 
+
+![[Pasted image 20260316121015.png]]
+
+**6**. Definir un mot de passe pour sécuriser le lance et l'autorisation de controle a distance
+
+![[Pasted image 20260316121106.png]]
+
+**7**. L'installation est complete 
+
+![[Pasted image 20260316121153.png]]
+
+**8**. Verification du lancement du serveur avec demande d'authentification
+
+![[Pasted image 20260316121234.png]]
+
+
+##FAQ - TightVNC
+
 ``` bash
 ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
 ```
