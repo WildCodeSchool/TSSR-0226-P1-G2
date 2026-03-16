@@ -96,6 +96,76 @@ Pour utiliser deux écrans ou plus, procédez comme suit :
 1. Cliquez avec le bouton droit sur le Bureau à distance pour lequel vous souhaitez activer plusieurs écrans, puis sélectionnez **Modifier**.
 2. Activez **Utiliser tous les moniteurs** et plein écran.
 
+
+
+
+
+### Utilisation de base
+Configuration de base pour utiliser les  fonctionnalités de TightVNC server.
+
+
+
+**1.** Ouverture du panneau de configuration de TightVNC server.
+
+![[Pasted image 20260316191546.png]]
+
+**2.** Demande d'authentification par mot de passe pour entrer dans le panneau de configuration.
+
+![[Pasted image 20260316191801.png]]
+
+**3.** Le panneau de configuration s'ouvre et s'affiche ainsi.
+
+![[Pasted image 20260316191847.png]]
+
+Il est possible de modifier certain paramètres et surtout d'avoir le port de connexion par lequel le client TightVNC va passé. Ici il s'agit du port 5900.
+
+**4.** Vérification de l'état de marche du serveur via la liste de services.
+
+![[Pasted image 20260316192319.png]]
+
+Le statut est bien en état de marche , vérifié par "running".
+
+**5.** Possibilité de stopper, démarrer, mettre en pause, le lancer ou non au démarrage de Windows le server via un clic droit et aller dans "propriétés".
+
+![[Pasted image 20260316192710.png]]
+
+
+#Utilisation 
+Configuration de base pour utiliser les  fonctionnalités de TightVNC Java viewer.
+
+
+**1.** Le fichier a éxécuter se trouve dans le fichier Downloads
+
+![[Pasted image 20260316202956.png]]
+
+**2.** Lancement via le terminal de TightVNC Java viewer avec le commande :
+''' java -jar tightvnc-jviewer.jar
+
+
+![[Pasted image 20260316200000.png]]
+
+Une petite fenêtre de lancement de connexion s'affiche et me propose différentes options pour pouvoir se connecter au serveur distant.
+
+**3.** Windows server 2025 est bien est fonction avec TightVNC server en marche.
+
+![[Pasted image 20260316201637.png]]
+
+**4.** Je me connecte en renseignant l'adresse IP du serveur distant : 172.16.10.5, puis je m'assure de renseigner le bon port d'écoute qui est le 5900.
+A l'aide de ces deux renseignement je prends le contrôle a distant de la machine (ici Windows server 2025) afin de pouvoir assister l'utilisateur
+
+![[Pasted image 20260316203419.png]]
+
+**5.** Prise de contrôle a distance en cours.
+
+![[Pasted image 20260316204251.png]]
+
+
+Le point symbolisant le client TightVNC et la souris le systeme d'exploitation controlé par TightVNC.
+L'utilisateur ici garde le contrôle de son OS.
+
+
+
+
 ## FAQ-VNC
 ### Quelles versions de Windows TightVNC supporte-t-il ?
 
@@ -116,6 +186,11 @@ Normalement, TightVNC peut être retiré comme n’importe quel autre logiciel, 
 4. Supprimez tout le dossier \Program Files\TightVNC (ou là où se trouvait TightVNC).
 5. Supprimez tous les raccourcis TightVNC du menu Démarrer.
 6. Supprimez les paramètres du registre si vous le souhaitez. Les réglages se trouvent dans HKEY_LOCAL_MACHINE\Logiciel\TightVNC et/ou HKEY_CURRENT_USER\Logiciel\TightVNC
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## FAQ-OPENSSH
 ### Quels systèmes d’exploitation sont pris en charge ?
