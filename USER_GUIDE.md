@@ -21,9 +21,7 @@ Voici quelques solutions possibles aux problèmes courants que vous pouvez renco
     3. Sélectionnez **Modifier les paramètres**. Vous pouvez être invité à fournir un mot de passe administrateur ou à confirmer votre choix.        
     4. Sous **applications et fonctionnalités autorisées**, sélectionnez Bureau à distance, puis appuyez ou sélectionnez **OK**.
 
-        Si vous utilisez un autre pare-feu, vérifiez que le port du Bureau à distance (généralement 3389) est ouvert.
-- **Les connexions à distance peuvent ne pas être configurées sur le PC distant.** Pour résoudre ce problème, faites défiler jusqu’à [Comment configurer un PC pour le Bureau à distance ?](https://learn.microsoft.com/fr-fr/windows-server/remote/remote-desktop-services/remotepc/remote-pc-connections-faq#how-do-i-set-up-a-pc-for-remote-desktop-) question dans cet article.
-
+        Si vous utilisez un autre pare-feu, vérifiez que le port du Bureau à distance (généralement 3389) est ouvert
 - **Le PC distant peut autoriser uniquement les PC à se connecter avec l’authentification au niveau du réseau.**
 
 - **Le PC distant peut être désactivé.** Vous ne pouvez pas vous connecter à un PC désactivé, endormi ou en veille prolongée. Assurez-vous que les paramètres de veille prolongée et de mise en veille prolongée sur le PC distant sont définis sur **Jamais** (la veille prolongée n’est pas disponible sur tous les PC.).
