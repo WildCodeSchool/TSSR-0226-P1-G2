@@ -4,6 +4,25 @@
 - *Utilisation avancée : comment utiliser au mieux les options*
 - [FAQ](#F-A-Q)
 
+## Utilisation de PuTTY
+
+### Fonctionnalités principales
+
+Pour utiliser PuTTY et vous connecter au serveur Debian vous avez besoin de ces 6 options :
+
+1 - Hostname or (Ip address) : indiquer ici le nom ou l'adresse IP de la mahcine dont on souhaite prendre le contrôle
+2 - Port : Indiquer le port de cette même machine (par défaut Port SSH : 22)
+3 - Connection type : sélectionner le type de connexion (par défaut SSH)
+4 - Indiquer le nom de la session
+5 - Charger une session 
+6 - Sauvegarder une session
+
+![lien à faire]()
+
+Lors de la première connexion à une machine vous devez renseigner les point 1 à 3 puis indiquer en 4 le nom de la session lié à cette machine (veillez à être explicite concernant le nom de la session, par exemple en indiquant le nom d'utilisateur et le nom du serveur sur lequel la session permet la connexion). Il est primordial de bien sauvegarder ces éléments en cliquant sur "Save" (point 6) ce qui ajoutera les paramètres de session en dessous de "Default Settings"
+
+Pour charger les paramètres d'une session il vous suffit de cliquer sur le nom de la session et de cliquer sur "Load" (point 5).
+
 ## FAQ
 
 ## FAQ-RDP
