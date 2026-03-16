@@ -17,7 +17,7 @@ Pour utiliser PuTTY et vous connecter au serveur Debian vous avez besoin de ces 
 - 5 - Charger une session 
 - 6 - Sauvegarder une session
 
-![lien à faire]()
+![Fonctionnalités principales de PuTTY](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/87da2ed30c5b6b6df293e88482818c04d0fffa7e/Ressources/PuTTY-primary-use.png)
 
 **Configuration initiale :** Lors de la première connexion à une machine vous devez renseigner les point 1 à 3 puis indiquer en 4 le nom de la session lié à cette machine (veillez à être explicite concernant le nom de la session, par exemple en indiquant le nom d'utilisateur et le nom du serveur sur lequel la session permet la connexion). Il est primordial de bien sauvegarder ces éléments en cliquant sur "Save" (point 6) ce qui ajoutera les paramètres de session en dessous de "Default Settings"
 
@@ -34,19 +34,19 @@ Pour enregistrer les logs d'une session vous devez vous rendre dans "Logging" et
 - 1 - le type de logs (Nous recommandons 2 modes : "All session output" qui enregistrera tous les charactères lié à la session ou "Printable output" qui enregistrera uniquement les charactères d'affichage)
 - 2 - Le nom de fichier : Vous pouvez définir le lieu d'enregistrement de vos logs et le nom standard avec &d = jour, &m = mois, &y = année, &t = heure
 
-![lien à faire]()
+![Gestion des logs PuTTY](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/87da2ed30c5b6b6df293e88482818c04d0fffa7e/Ressources/PuTTY-logs-options.png)
 
 **Modification de la police d'écriture :**
 
 Dans la rubrique "Appearance" vous pouvez modifier l'affichage de votre terminal pour plus de confort. Vous pouvez notamment modifier la police d'écriture et sa taille en cliquant sur "Change" dans "Font settings".
 
-![lien à faire]()
+![Gérer la police de PuTTY](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/87da2ed30c5b6b6df293e88482818c04d0fffa7e/Ressources/PuTTY-appareance-options.png)
 
 **Ajout d'un nom de machine au terminal :**
 
 Enfin dans la rubrique "Behaviour" nous vous invitons à reprendre le nom de votre session dans la rubrique "Windows title", cela aura pour effet d'ajouter un titre en haut de la fenêtre du shell avant validation de la connexion avec le serveur. Vous permettant ainsi de toujours savoir vers quelle machine vous vous apprêtez à vous connecter. 
 
-![lien à faire]()
+![Nom de fenêtre PuTTY](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/PuTTY-behaviour-options.png)
 
 ### FAQ PuTTY
 
