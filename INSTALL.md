@@ -1,7 +1,9 @@
 *On doit avoir dans cette documentation (pour la tâche principale et secondaire) :*
 - *Prérequis techniques*
 - *Installation/Mise en place de la solution (explication étape par étape, ligne de code, copie d’écran, etc.) sur le client et/ou le serveur*
+  - Installation Putty
   - Installation OPENSSH
+  - Installation de TightVNC client et Serveur
 - *FAQ*
 ____
 
@@ -96,12 +98,20 @@ ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
 
 **4** - Copiez automatiquement votre clé publique vers le serveur avec ssh-copy-id
 
+``` bash
+ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
+```
 
 
-##**INSTALL.md pour le logiciel TightVNC**##
 
 
-##**Prérequis technique pour windows server 2025**
+
+
+
+### INSTALL.md pour le logiciel TightVNC
+
+
+## Prérequis technique pour windows server 2025
 
  **CPU Minimum**:
 - Processeur 1,4 GHz 64 bits
@@ -122,12 +132,12 @@ ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
 - Conforme à la spécification de l’architecture PCI Express.
 
 
-## **Prérequis technique minimum pour Ubuntu LTS 24.04**
+## Prérequis technique minimum pour Ubuntu LTS 24.04
 
-- **CPU** minimun
+ **CPU** minimun
 	 - Processeur 2 GHz double cœur ou plus ;
 
-**RAM** minimum
+ **RAM** minimum
 	- 4 Go de mémoire vive (8 Go recommandés) ;
 
 Stockage minimum
@@ -141,7 +151,7 @@ Stockage minimum
 -  Une souris (ou touchpad sur PC)
 
 
-##Installation de TightVNC JavaViewer sur Ubuntu##
+## Installation de TightVNC JavaViewer sur Ubuntu
 
 **1**. Verifier que nous avons java via le terminal
 
@@ -159,7 +169,7 @@ Stockage minimum
 
 ![[Pasted image 20260316112331.png]]
 
-**5**.Une fois telechargé , je le decompresse via le terminal
+**5**. Une fois telechargé , je le decompresse via le terminal
 
 ![[Pasted image 20260316112532.png]]
 
@@ -169,7 +179,7 @@ Stockage minimum
 
 
 
-## Installation de TightVNC  server sur Windows server 2025##
+## Installation de TightVNC  server sur Windows server 2025
 
 **1**. Aller sur le site de TightVNC et télécharger l'application : Installer for windows -64bits
 
@@ -205,8 +215,4 @@ Stockage minimum
 ![[Pasted image 20260316121234.png]]
 
 
-##FAQ - TightVNC
-
-``` bash
-ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
-```
+## FAQ - TightVNC
