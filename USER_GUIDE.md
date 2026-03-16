@@ -19,9 +19,19 @@ Pour utiliser PuTTY et vous connecter au serveur Debian vous avez besoin de ces 
 
 ![lien à faire]()
 
-Configuration initiale : Lors de la première connexion à une machine vous devez renseigner les point 1 à 3 puis indiquer en 4 le nom de la session lié à cette machine (veillez à être explicite concernant le nom de la session, par exemple en indiquant le nom d'utilisateur et le nom du serveur sur lequel la session permet la connexion). Il est primordial de bien sauvegarder ces éléments en cliquant sur "Save" (point 6) ce qui ajoutera les paramètres de session en dessous de "Default Settings"
+**Configuration initiale :** Lors de la première connexion à une machine vous devez renseigner les point 1 à 3 puis indiquer en 4 le nom de la session lié à cette machine (veillez à être explicite concernant le nom de la session, par exemple en indiquant le nom d'utilisateur et le nom du serveur sur lequel la session permet la connexion). Il est primordial de bien sauvegarder ces éléments en cliquant sur "Save" (point 6) ce qui ajoutera les paramètres de session en dessous de "Default Settings"
 
-Chargement de paramètres de session : Pour charger les paramètres d'une session il vous suffit de cliquer sur le nom de la session et de cliquer sur "Load" (point 5).
+**Chargement de paramètres de session :** Pour charger les paramètres d'une session il vous suffit de cliquer sur le nom de la session et de cliquer sur "Load" (point 5).
+
+### Fonctionnalités complémentaires
+
+**Enregistrement de Logs :**
+
+
+
+**Modification de la police d'écriture :**
+
+**Ajout d'un nom de machine au terminal :**
 
 ## FAQ
 
