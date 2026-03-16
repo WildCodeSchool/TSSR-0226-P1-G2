@@ -17,31 +17,31 @@ Si vous utilisez Microsoft Store vous pouvez suivre l'installation à partir de 
 
 **1** -  Sur la page d'accueil cliquer sur "Download PuTTY"
 
-[Lien d'installation PuTTY - page d'accueil](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Lien-installation-Putty-page-accueil.png)
+![Lien d'installation PuTTY - page d'accueil](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Lien-installation-Putty-page-accueil.png)
 
 **2** -  Dans la rubrique "Package Files" cliquer sur le premier lien "putty-64bit-0.83-installer.msi" afin de télécharger l'installeur 
 
-[Lin d'installation PuTTY - sélection intalleur](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Lien-installation-Putty-selection-installateur.png)
+![Lin d'installation PuTTY - sélection intalleur](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Lien-installation-Putty-selection-installateur.png)
 
 **3** -  Lancer l'installation en double-cliquant sur le fichier téléchargé, cliquer sur "Next" sur la première page
 
-[Installeur PuTTY page 1](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page1.png)
+![Installeur PuTTY page 1](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page1.png)
 
 **4** -  Sélectionner le chemin d'installation du logiciel (Ne modifier qu'en cas d'installation particulière)
 
-[Installeur PuTTY - Sélection chemin d'installation](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page2-Emplacement-installation.png)
+![Installeur PuTTY - Sélection chemin d'installation](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page2-Emplacement-installation.png)
 
 **5** -  Pour ajouter un raccourci sur le bureau, dans la page "Product Features" cliquer sur le second titre "Add shortcut to PuTTY on the desktop" et sélectionner "Will be installed on local hard drive"
 
-[Installeur PuTTY - Product Features](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page3-choix-options.png)
+![Installeur PuTTY - Product Features](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page3-choix-options.png)
 
 **6** -  Cliquer sur "Yes" afin d'accepter l'installation du logiciel
 
-[Installeur PuTTY - Accord admin](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page4-validation-admin.png)
+![Installeur PuTTY - Accord admin](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page4-validation-admin.png)
 
 **7** -  Cliquer sur "Finish" afin de terminer l'installation, penser à décocher "view Readme File" pour ne pas déclencher l'ouverture du manuel d'utilisation - si non souhaité
 
-[Installeur PuTTY - Finish](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page5-fin-readme.png)
+![Installeur PuTTY - Finish](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page5-fin-readme.png)
 
 ###FAQ - PuTTY
 
