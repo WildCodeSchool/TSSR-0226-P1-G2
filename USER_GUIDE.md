@@ -192,7 +192,37 @@ Normalement, TightVNC peut être retiré comme n’importe quel autre logiciel, 
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Utilisation OpenSSH
 
+### Connexion au Serveur SSH
+
+Une fois le client SSH installé sur votre poste de travail, la prochaine étape est de se connecter à un serveur SSH. Voici comment procéder.
+
+### Connexion Basique avec mot de passe
+
+Pour établir une connexion SSH de base, utilisez la commande suivante dans le terminal de votre client (remplacez `utilisateur`, `adresse_ip` et `port` par vos propres valeurs) :
+
+```bash
+ssh utilisateur@adresse_ip -p port
+```
+
+### Création d'une clé SSH
+
+**1** - Entrer la commande suivante puis choisir le dossier de destination de la clé
+
+``` bash
+ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
+```
+
+**2** - Choisir le **PassPhrase** qui viendra protéger la clé SSH
+
+**3** - Entrer à nouveau le **PassPhrase** pour valider la création de la clé SSH
+
+**4** - Copiez automatiquement votre clé publique vers le serveur avec ssh-copy-id
+
+``` bash
+ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
+```
 
 ## FAQ-OPENSSH
 ### Quels systèmes d’exploitation sont pris en charge ?
