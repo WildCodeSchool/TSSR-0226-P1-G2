@@ -287,3 +287,10 @@ Pour recevoir les connexions RDP sur son ordinateur. Il faut activer le Bureau �
 		- Accédez aux paramètres Windows en appuyant sur les touches **Win + I**.
 	    - Allez dans **Système** puis **Bureau à distance**.
 	    - Activez l’option **Bureau à distance**.
+
+## FAQ - RDP
+
+**Qu'est-ce que RDP et à quoi ça sert ?**
+
+**RDP** est un outil logiciel qui vous permet de se connecter à un autre ordinateur et de le contrôler via l’internet ou un réseau interne.  
+Le client **RDP** est disponible sur la version Bureau et serveur de **Windows**.
