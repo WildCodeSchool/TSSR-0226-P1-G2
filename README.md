@@ -4,9 +4,9 @@
 - [Présentation du projet](#Présentation-du-projet)
 - [Membres du groupe par sprint](#Membres-du-groupe-par-sprint)
 - [Choix techniques](#Choix-techniques)
-- [Difficultés rencontrées](#Difficultes-rencontrees)
-- [Solutions trouvées](#Solutions-trouvees)
-- [Améliorations possibles](#Ameliorations-possibles)
+- [Difficultés rencontrées](#Difficultés-rencontrées)
+- [Solutions trouvées](#Solutions-trouvées)
+- [Améliorations possibles](#Améliorations-possibles)
 
 
 ## Présentation du projet
