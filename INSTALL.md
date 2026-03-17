@@ -135,7 +135,7 @@ java -version
 
 **4**. Je me rend sur le site de TightVNC pour telecharger le client VNC qui est le suivant : TightVNC Java Viewer
 
-
+![sitedinstall](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Install-TightVNC-linux-4.png)
 
 **5**. Une fois telechargé, je vais dans le dossier Téléchargement pour vérifier que le fichier Zip est bien présent puis je le décompresse via le terminal
 
