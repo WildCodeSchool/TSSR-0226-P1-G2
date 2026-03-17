@@ -75,29 +75,28 @@ Ouvre PuTTY > menu `Help` > `About` vous trouverez le numéro de version install
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Utilisation de RDP
-**Quelques Conseils Pratiques**
-
-    - Utilisez des noms descriptifs pour vos connexions sauvegardées.
-    - Testez toujours la connexion après une modification de configuration.
-    - Sauvegardez vos connexions fréquentes pour un accès rapide. 
-    - Documentez les paramètres spécifiques pour chaque serveur 
-    - Organisez vos connexions par dossiers si vous gérez plusieurs serveurs.
+**Quelques Conseils Pratiques** :
+- Utilisez des noms descriptifs pour vos connexions sauvegardées.
+- Testez toujours la connexion après une modification de configuration.
+- Sauvegardez vos connexions fréquentes pour un accès rapide. 
+- Documentez les paramètres spécifiques pour chaque serveur 
+- Organisez vos connexions par dossiers si vous gérez plusieurs serveurs.
 
 **Raccourcis Clavier Utiles**
 
-    - Ctrl + Alt + Fin - Équivalent de Ctrl+Alt+Suppr sur le serveur distant 
-    - Ctrl + Alt + Pause - Basculer entre plein écran et fenêtre 
-    - Alt + Page Up/Down - Basculer entre applications 
-    - Alt + Inser - Parcourir les programmes dans l'ordre d'utilisation
+- Ctrl + Alt + Fin - Équivalent de Ctrl+Alt+Suppr sur le serveur distant 
+- Ctrl + Alt + Pause - Basculer entre plein écran et fenêtre 
+- Alt + Page Up/Down - Basculer entre applications 
+- Alt + Inser - Parcourir les programmes dans l'ordre d'utilisation
 
 **Bonnes Pratiques**
-    - Utilisez des mots de passe forts et uniques 
-    - Activez l'authentification au niveau du réseau (NLA) 
-    - Changez le port RDP par défaut (3389) si possible 
-    - Utilisez un VPN pour les connexions à distance 
-    - Limitez les utilisateurs autorisés à se connecter via RDP 
-    - Activez la journalisation des connexions 
-    - Mettez à jour régulièrement votre système
+- Utilisez des mots de passe forts et uniques 
+- Activez l'authentification au niveau du réseau (NLA) 
+- Changez le port RDP par défaut (3389) si possible 
+- Utilisez un VPN pour les connexions à distance 
+- Limitez les utilisateurs autorisés à se connecter via RDP 
+- Activez la journalisation des connexions 
+- Mettez à jour régulièrement votre système
 
 ## FAQ-RDP
 ### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
