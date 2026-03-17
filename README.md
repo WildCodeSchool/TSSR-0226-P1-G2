@@ -86,7 +86,7 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 <span id="Difficultes-rencontrees"></span>
 
  - Se connecter avec le nom de la machine distante (au lieu de saisir l'adresse IP)
- - Le fond d'écran de la machine dont on prend le crontrôle à distance ne s'affiche pas correctement (écran noir)
+ 
 
 ## Solutions trouvées
 <span id="Solution-trouvees"></span>
@@ -95,5 +95,6 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 ## Améliorations possibles
 <span id="Amelioration-possibles"></span>
 
+Une solution payante aura plus de possibilitées de configuration car elle se doit d'être a la pointe de ce qu'elle propose a ses clients.
 
 
