@@ -134,7 +134,7 @@ Pour cela suivre le tutoriel d'installation, l'installation par cmd est sécuris
 
 **Comment mettre à jour OpenSSH**
 Entrer la ligne de commande suivante dans le terminal :
-````bash
+``` bash
 sudo apt update && sudo apt upgrade
 ```
 
