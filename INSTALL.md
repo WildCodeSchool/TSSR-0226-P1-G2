@@ -1,19 +1,14 @@
-- *Prérequis techniques* :
-  
-- *Installation/Mise en place de la solution (explication étape par étape, ligne de code, copie d’écran, etc.) sur le client et/ou le serveur*
-  - Installation Putty
-  - Installation OPENSSH
-  - Installation de TightVNC client et Serveur
-  - Installation RDP
- 
-- *FAQ* :
-  - Putty
-  - OpenSSH
-  - TightVNC Client / Serveur
-  - RDP 
+**Sommaire**
+
+- [Installation de PuTTY](#Installation-PuTTY)
+- [Installation OpenSSH](#Installation-OpenSSH)
+- [nstallation de TightVNC client et Serveur](#Installation-TightVNC)
+- [Installation RDP](#Installation-RDP)
+
 ____
 
 ## Installation PuTTY
+<span id="Installation-PuTTY"></span>
 
 **Prérequis techniques :**
 - Système d'exploitation Windows 64 bits
@@ -82,8 +77,8 @@ et dans cette zone, les sessions sauvegardées sont stockées sous `Sessions`pen
 
 ____
 
-## Installation OPENSSH
-
+## Installation OpenSSH
+<span id="Installation-OpenSSH"></span>
 **Prérequis techniques :**
   - Bénéficier des droits Administrateur
 
@@ -144,7 +139,7 @@ ____
 
 
 ## Installation TightVNC
-
+<span id="Installation-TightVNC"></span>
 
 | Prérequis technique pour windows server 2025                                                                                                                                                                                                                                                                                                                                                                                                                                             | Prérequis technique minimum pour Ubuntu LTS 24.04                                                                                                                                                                                                                                                                                                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -258,7 +253,7 @@ ____
 
 
 ## Installation RDP
-
+<span id="Installation-RDP"></span>
 **Prérequis techniques :**
 		- RDP est intégré sur Windows 11 et Windows Server 2022-2025 / sinon installez le
 		- L'adresse IP ou le nom d'hôte du serveur distant sont connus
