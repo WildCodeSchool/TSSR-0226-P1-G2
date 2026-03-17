@@ -39,7 +39,7 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 | ------- | ---------- | -------- |
 | Aymeric | PO         | Documenter INSTALL.md, documenter FAQ         |
 | Patrick | SM         | Documenter INSTALL.md        |
-| Saiah   | Technicien | Documenter INSTALL.md         |
+| Saiah   | Technicien | Documenter INSTALL.md, schéma synoptique      |
 | Camille | Technicien | Documenter INSTALL.md, documenter FAQ        |
 
 
@@ -86,7 +86,7 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 <span id="Difficultes-rencontrees"></span>
 
  - Se connecter avec le nom de la machine distante (au lieu de saisir l'adresse IP)
- 
+ - Lors de la prise de controle distante, les deux ecran basculent en fond noir.
 
 ## Solutions trouvées
 <span id="Solution-trouvees"></span>
