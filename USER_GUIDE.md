@@ -4,7 +4,7 @@
 - [Utilisation de TightVNC](#Utilisation-TightVNC) - Client Ubuntu 24 LTS vers Serveur Windows server 2025 en CLI
 - [Utilisation de OpenSSH](#Utilisation-OpenSSH) - Client Ubuntu 24 LTS vers Serveur Debian 13 en CLI
 
-**Vous retrouverez pour chaque outil **les fonctionnalités principales**, **les fonctionnalités complémentaires adaptées à vos besoins** et **une FAQ***
+*Vous retrouverez pour chaque outil **les fonctionnalités principales**, **les fonctionnalités complémentaires adaptées à vos besoins** et **une FAQ***
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
