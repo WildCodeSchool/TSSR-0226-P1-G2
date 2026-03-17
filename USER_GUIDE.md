@@ -68,7 +68,7 @@ Ouvre PuTTY > menu `Help` > `About` vous trouverez le numéro de version install
 2. Télécharger la nouvelle version sur votre machine Windows et l'installer. La version précédente sera écrasée.
 3. En cas d'erreur vous pouvez désinstaller l'ancienne version de PuTTY dans le `panneau de configuration` puis relancer l'installation de la nouvelle version
 
-**Pour rester informé des mises à jours de PuTTY et éventuels bugs ou failles de sécurité vous pouvez vous inscrire à la lettre d'information des développeurs de PuTTY en [cliquant ici](https://lists.tartarus.org/mailman/listinfo/putty-announce)
+**Pour rester informé des mises à jours de PuTTY et éventuels bugs ou failles de sécurité vous pouvez vous inscrire à la lettre d'information des développeurs de PuTTY en [cliquant ici](https://lists.tartarus.org/mailman/listinfo/putty-announce)**
 
 ## FAQ-RDP
 ### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
