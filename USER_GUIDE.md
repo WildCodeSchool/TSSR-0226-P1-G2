@@ -129,7 +129,7 @@ Le statut est bien en état de marche , vérifié par "running".
 ![[Pasted image 20260316192710.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-6.png?raw=true)
 
 
-#Utilisation 
+# Utilisation 
 Configuration de base pour utiliser les  fonctionnalités de TightVNC Java viewer.
 
 
@@ -189,7 +189,8 @@ Normalement, TightVNC peut être retiré comme n’importe quel autre logiciel, 
 5. Supprimez tous les raccourcis TightVNC du menu Démarrer.
 6. Supprimez les paramètres du registre si vous le souhaitez. Les réglages se trouvent dans HKEY_LOCAL_MACHINE\Logiciel\TightVNC et/ou HKEY_CURRENT_USER\Logiciel\TightVNC
 
-
+### Comment me connecter en toute sécurité à TightVNC ?
+Le protocole VNC par défaut n'est pas chiffré. Pour sécuriser votre session, vous devez établir une connexion via un SSH tunnel. Cela garantit la protection de vos données et de votre mot de passe pendant la transmission.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Utilisation OpenSSH
