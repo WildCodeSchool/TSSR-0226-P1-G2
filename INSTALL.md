@@ -115,25 +115,39 @@ ____
 
 ## Installation de TightVNC JavaViewer sur Ubuntu
 
-**1**. Verifier que nous avons java via le terminal
+**1**. Vérifier que nous avons java via le terminal
 
-![[Pasted image 20260316112111.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%201.png)
+```bash
+java -version
+```
 
-**2**. Installation de Java car il n'est pas présent 
+**2**. Installation de Java s'il n'est pas présent 
 
-![[Pasted image 20260316112220.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%202.png)
+```bash 
+sudo apt install openjdk-25-jre
+```
 
-**3**. Verification de la presence de Java a nouveau
+**3**. Vérification de la présence de Java à nouveau
 
-![[Pasted image 20260316112248.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%203.png)
+```bash
+java -version
+```
 
 **4**. Je me rend sur le site de TightVNC pour telecharger le client VNC qui est le suivant : TightVNC Java Viewer
 
-![[Pasted image 20260316112331.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%204.png)
 
-**5**. Une fois telechargé , je le decompresse via le terminal
 
-![[Pasted image 20260316112532.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%205.png)
+**5**. Une fois telechargé, je vais dans le dossier Téléchargement pour vérifier que le fichier Zip est bien présent puis je le décompresse via le terminal
+
+```bash
+cd ~/Téléchargements
+```
+```bash
+ls
+```
+```bash
+unzip "NomDuFichierZip"
+```
 
 **6**. Le logiciel est installé et prêt a l'emploi
 
