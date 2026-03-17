@@ -4,6 +4,8 @@
 - *Utilisation avancée : comment utiliser au mieux les options*
 - [FAQ](#F-A-Q)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Utilisation de PuTTY
 
 ### Fonctionnalités principales
@@ -69,6 +71,33 @@ Ouvre PuTTY > menu `Help` > `About` vous trouverez le numéro de version install
 3. En cas d'erreur vous pouvez désinstaller l'ancienne version de PuTTY dans le `panneau de configuration` puis relancer l'installation de la nouvelle version
 
 **Pour rester informé des mises à jours de PuTTY et éventuels bugs ou failles de sécurité vous pouvez vous inscrire à la lettre d'information des développeurs de PuTTY en [cliquant ici](https://lists.tartarus.org/mailman/listinfo/putty-announce)**
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Utilisation de RDP
+**Quelques Conseils Pratiques**
+
+    - Utilisez des noms descriptifs pour vos connexions sauvegardées.
+    - Testez toujours la connexion après une modification de configuration.
+    - Sauvegardez vos connexions fréquentes pour un accès rapide. 
+    - Documentez les paramètres spécifiques pour chaque serveur 
+    - Organisez vos connexions par dossiers si vous gérez plusieurs serveurs.
+
+**Raccourcis Clavier Utiles**
+
+    - Ctrl + Alt + Fin - Équivalent de Ctrl+Alt+Suppr sur le serveur distant 
+    - Ctrl + Alt + Pause - Basculer entre plein écran et fenêtre 
+    - Alt + Page Up/Down - Basculer entre applications 
+    - Alt + Inser - Parcourir les programmes dans l'ordre d'utilisation
+
+**Bonnes Pratiques**
+    - Utilisez des mots de passe forts et uniques 
+    - Activez l'authentification au niveau du réseau (NLA) 
+    - Changez le port RDP par défaut (3389) si possible 
+    - Utilisez un VPN pour les connexions à distance 
+    - Limitez les utilisateurs autorisés à se connecter via RDP 
+    - Activez la journalisation des connexions 
+    - Mettez à jour régulièrement votre système
 
 ## FAQ-RDP
 ### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
@@ -199,7 +228,6 @@ Ouvre la configuration de TightVNC, choisis l’onglet Server, décoche l’opti
 Pour réafficher l’icône, utilise l’un des raccourcis Control Interface ou Offline Configuration situés dans le groupe TightVNC du menu Démarrer > Tous les programmes.
 
 
----
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Utilisation OpenSSH
