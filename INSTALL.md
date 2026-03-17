@@ -122,8 +122,21 @@ ss -tnlp | grep :22
 ```
 ## FAQ - OpenSSH
 
+**Qu'est-ce que OpenSSH et à quoi ça sert ?**
 
+_SSH_ (Secure Shell) = un protocole de connexion qui impose un échange de clés de chiffrement en début de connexion.
+Il chiffre tout le trafic entre le client et le serveur pour éliminer les écoutes clandestines, le détournement de connexion et d’autres attaques.
+OpenSSH offre une large suite de capacités de tunneling sécurisé, plusieurs méthodes d’authentification et des options de configuration sophistiquées.
 
+**Où télécharger OpenSSH en toute sécurité ?**
+
+Pour cela suivre le tutoriel d'installation, l'installation par cmd est sécurisée
+
+**Comment mettre à jour OpenSSH**
+Entrer la ligne de commande suivante dans le terminal :
+````bash
+sudo apt update && sudo apt upgrade
+```
 
 ____
 
