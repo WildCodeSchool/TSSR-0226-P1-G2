@@ -196,11 +196,19 @@ ____
 		- Depuis le clavier, appuyez sur les touches Win + R
 		- Saisissez **mstsc** ou bien, dans le menu démarrer, recherchez « **Connexion Bureau à Distance** »
 
+
+| ![Ouvrir via tableur](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/mstsc.png) | ![Ouvrir via recherche](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Ouvrir_l_appli.png) |
+| ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+
+
+
 **2** - Utilisation :
 		- Saisissez l’adresse IP ou le nom de la machine distante
 		- Cliquez sur connexions
 		- Saisissez les identifiants utilisateur (nom utilisateur & mot de passe)
 		- Cliquez sur Ok pour établir la connexion
+
+![Entrer ladresse IP](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/RDP.png)
 
 **3** - Configuration du PC pour Accepter les Connexions RDP 
 Pour recevoir les connexions RDP sur son ordinateur. Il faut activer le Bureau à Distance :
