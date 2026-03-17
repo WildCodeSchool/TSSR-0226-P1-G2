@@ -53,7 +53,32 @@ Si vous utilisez Microsoft Store vous pouvez suivre l'installation à partir de 
 
 ![Installeur PuTTY - Finish](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/d76e592fa359ff8d816e8174c2dd8c7628554d21/Ressources/Installeur-Putty-page5-fin-readme.png)
 
-###FAQ - PuTTY
+### FAQ - PuTTY
+
+**Qu'est-ce que PuTTY et à quoi ça sert ?**
+
+PuTTY est un client SSH permettant d'exécuter des sessions terminal à distance via le réseau, et supporte aussi les connexions série et d'anciens protocoles comme Telnet
+
+**Où télécharger PuTTY en toute sécurité ?** 
+
+Le vrai site officiel est celui indiqué est [chiark.greenend.org](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+Vous pouvez également retrouver la dernière version officiel de PuTTY sur le [Microsoft Store](https://apps.microsoft.com/detail/xpfnzksklbp7rj?hl=fr-FR&gl=US)
+
+**Quelle version d'installeur choisir : 32-bit ou 64-bit ?**  
+
+Il faut vérifier votre configuration en tapant "system information" dans la recherche Windows et regarder le champ "System Type" : x64 = 64-bit x86, ARM64 = 64-bit Arm, x32 = 32-bit.
+
+La version la plus fréquente étant : 64-bit x86.
+
+**Ou sont sauvegardées les données de sessions de PuTTY ?**
+
+Sous Windows, PuTTY stocke la plupart de ses données (sessions sauvegardées, clés hôtes SSH) dans le Registre. L'emplacement précis est
+
+```
+HKEY_CURRENT_USER\Software\SimonTatham\PuTTY
+```
+
+et dans cette zone, les sessions sauvegardées sont stockées sous `Sessions`pendant que les clés hôtes sont stockées sous `SshHostKeys`.
 
 ____
 
