@@ -37,9 +37,9 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 
 | Membres | Rôles      | Missions |
 | ------- | ---------- | -------- |
-| Aymeric | PO         | Documenter INSTALL.md, documenter FAQ         |
-| Patrick | SM         | Documenter INSTALL.md        |
-| Saiah   | Technicien | Documenter INSTALL.md, schéma synoptique      |
+| Aymeric | PO         | Documenter INSTALL.md, documenter FAQ        |
+| Patrick | SM         | Documenter INSTALL.md                        |
+| Saiah   | Technicien | Documenter INSTALL.md, schéma synoptique     |
 | Camille | Technicien | Documenter INSTALL.md, documenter FAQ        |
 
 
@@ -90,7 +90,7 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 
 ## Solutions trouvées
 <span id="Solution-trouvees"></span>
-
+ - Afin de garder l'environnement intact lors de la prise de contrôle décocher dans les option de configuration de TightVNC viewer  "cacher le papier-peint bureau".
 
 ## Améliorations possibles
 <span id="Amelioration-possibles"></span>
