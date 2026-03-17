@@ -5,6 +5,7 @@
 - [nstallation de TightVNC client et Serveur](#Installation-TightVNC)
 - [Installation RDP](#Installation-RDP)
 
+*Vous retrouverez pour chaque outil **les prérequis techniques**, **les étapes d'installation et de configuration de ces derniers** et **une FAQ dédiée***
 ____
 
 ## Installation PuTTY
