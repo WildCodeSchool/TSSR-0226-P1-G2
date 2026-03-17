@@ -260,8 +260,11 @@ ____
 ## Installation RDP
 
 **Prérequis techniques :**
-		- RDP est intégré sur Windows 11 et Windows Server 2022-2025
-
+		- RDP est intégré sur Windows 11 et Windows Server 2022-2025 / sinon installez le
+		- L'adresse IP ou le nom d'hôte du serveur distant sont connus
+		- Des identifiants de connexion valides (nom d'utilisateur et mot de passe) 
+		- Une connexion réseau stable 
+		- Le port RDP (par défaut 3389) doit être ouvert sur le pare-feu
 ____
 
 **1** - Accéder au client RDP : 
@@ -292,5 +295,15 @@ Pour recevoir les connexions RDP sur son ordinateur. Il faut activer le Bureau �
 
 **Qu'est-ce que RDP et à quoi ça sert ?**
 
-**RDP** est un outil logiciel qui vous permet de se connecter à un autre ordinateur et de le contrôler via l’internet ou un réseau interne.  
-Le client **RDP** est disponible sur la version Bureau et serveur de **Windows**.
+Le protocole **RDP** pour (**Remote Desktop Protocol**) est un protocole qui permet de se connecter à distance à une autre machine (poste client ou serveur), en visualisant l’environnement graphique et les programmes de la machine distante.
+
+**Comprendre les Paramètres Avancés**:
+**Partage de Ressources**
+	- Lecteurs : Permet d'accéder aux disques locaux depuis le serveur distant 
+	- Presse-papiers : Copier-coller entre local et distant 
+	- Imprimantes : Utiliser vos imprimantes locales 
+	- Ports : Redirection des ports série 
+**Optimisation des Performances**
+	- Connexion rapide : Désactiver le papier peint, les animations 
+	- Connexion moyenne : Quelques effets visuels activés 
+	- Connexion LAN : Tous les effets visuels activés 
