@@ -1,12 +1,13 @@
-*On doit avoir dans cette documentation :*
 ## Sommaire
-- *Utilisation de base : comment utiliser les fonctionnalités clés*
-- *Utilisation avancée : comment utiliser au mieux les options*
-- [FAQ](#F-A-Q)
+- [Utilisation de Putty](#Utilisation-PuTTY) - Client Windows 11 vers Serveur Debian 13 en CLI
+- [Utilisation de RDP](#Utilisation-RDP) - Client Windows 11 vers Serveur Windows server 2025 en GUI
+- [Utilisation de TightVNC](#Utilisation-TightVNC) - Client Ubuntu 24 LTS vers Serveur Windows server 2025 en CLI
+- [Utilisation de OpenSSH](#Utilisation-OpenSSH) - Client Ubuntu 24 LTS vers Serveur Debian 13 en CLI
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Utilisation de PuTTY
+<span id="Utilisation-PuTTY"></span>
 
 ### Fonctionnalités principales
 
@@ -52,19 +53,19 @@ Enfin dans la rubrique "Behaviour" nous vous invitons à reprendre le nom de vot
 
 ### FAQ PuTTY
 
-**Puis-je sauvegarder mon mot de passe SSH dans PuTTY ?**
+#### Puis-je sauvegarder mon mot de passe SSH dans PuTTY ?
 
 Non PuTTY ne permet pas la sauvegarde du mot de passe de votre session SSH pour des raisons de sécurité. Cependant il prends en charge l'authentification par clé publique, une solution plus flexible et sécurisé.
 
-**Comment copier-coller du texte dans PuTTY ?** 
+#### Comment copier-coller du texte dans PuTTY ?
 
 La copie se fait en sélectionnant le texte avec le clic gauche de la souris ; le texte est automatiquement copié dans le presse-papiers sans avoir à appuyer sur `Ctrl+C`.
 
-**Comment vérifier la version actuelle de PuTTY ?**
+#### Comment vérifier la version actuelle de PuTTY ?
 
 Ouvre PuTTY > menu `Help` > `About` vous trouverez le numéro de version installé. La dernière version stable est actuellement la **0.83**.
 
-**Comment mettre à jour PuTTY  ?**
+#### Comment mettre à jour PuTTY  ?
 
 1. Vérifier la version de PuTTY comme indiqué au point précédent.
 2. Télécharger la nouvelle version sur votre machine Windows et l'installer. La version précédente sera écrasée.
@@ -75,6 +76,8 @@ Ouvre PuTTY > menu `Help` > `About` vous trouverez le numéro de version install
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Utilisation de RDP
+<span id="Utilisation-RDP"></span>
+
 **Quelques Conseils Pratiques** :
 - Utilisez des noms descriptifs pour vos connexions sauvegardées.
 - Testez toujours la connexion après une modification de configuration.
@@ -98,8 +101,9 @@ Ouvre PuTTY > menu `Help` > `About` vous trouverez le numéro de version install
 - Activez la journalisation des connexions 
 - Mettez à jour régulièrement votre système
 
-## FAQ-RDP
-### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
+### FAQ-RDP
+
+#### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
 
 Voici quelques solutions possibles aux problèmes courants que vous pouvez rencontrer lors de la tentative de connexion à un PC distant. Si ces solutions ne fonctionnent pas, vous trouverez plus d’aide sur le site web [Microsoft Community](https://answers.microsoft.com/).
 
@@ -118,7 +122,7 @@ Voici quelques solutions possibles aux problèmes courants que vous pouvez renco
 
 - **Le PC distant peut être désactivé.** Vous ne pouvez pas vous connecter à un PC désactivé, endormi ou en veille prolongée. Assurez-vous que les paramètres de veille prolongée et de mise en veille prolongée sur le PC distant sont définis sur **Jamais** (la veille prolongée n’est pas disponible sur tous les PC.).
 
-### Pourquoi ne puis-je pas trouver ou me connecter à mon PC ?
+#### Pourquoi ne puis-je pas trouver ou me connecter à mon PC ?
 
 Vérifiez les éléments suivants :
 
@@ -127,7 +131,7 @@ Vérifiez les éléments suivants :
 - Le PC est-il sur un autre réseau ? Avez-vous configuré le PC pour permettre aux connexions externes via ?
 - Vous vous connectez à une version de Windows prise en charge ?
 
-### Pourquoi ne puis-je pas me connecter à un PC distant ?
+#### Pourquoi ne puis-je pas me connecter à un PC distant ?
 
 Si vous pouvez voir l’écran de connexion du PC distant, mais que vous ne pouvez pas vous connecter, vous n’êtes peut-être pas ajouté au groupe Utilisateurs Bureau à distance ou à un groupe avec des droits d’administrateur sur le PC distant. Demandez à votre administrateur système de vous ajouter au groupe approprié.
 ### Quelles méthodes de connexion sont prises en charge pour les réseaux d’entreprise ?
@@ -138,7 +142,7 @@ Si vous souhaitez accéder à votre bureau office à partir de l’extérieur de
 - Accès web Bureau à distance
 - VPN (via les options VPN intégrées iOS)
 
-### Comment utiliser tous mes moniteurs ?
+#### Comment utiliser tous mes moniteurs ?
 
 Pour utiliser deux écrans ou plus, procédez comme suit :
 1. Cliquez avec le bouton droit sur le Bureau à distance pour lequel vous souhaitez activer plusieurs écrans, puis sélectionnez **Modifier**.
@@ -148,9 +152,10 @@ Pour utiliser deux écrans ou plus, procédez comme suit :
 
 ------------------------------------------------
 
-# Utilisation de TightVNC
+## Utilisation de TightVNC
+<span id="Utilisation-TightVNC"></span>
 
-# Configuration de base pour utiliser les  fonctionnalités de TightVNC server.
+### Configuration de base pour utiliser les  fonctionnalités de TightVNC server.
 
 
 **1.** Ouverture du panneau de configuration de TightVNC server.
@@ -178,7 +183,7 @@ Le statut est bien en état de marche , vérifié par "running".
 ![[Pasted image 20260316192710.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-6.png?raw=true)
 
 
-# Configuration de base pour utiliser les  fonctionnalités de TightVNC Java viewer.
+### Configuration de base pour utiliser les  fonctionnalités de TightVNC Java viewer.
 
 
 **1.** Le fichier a éxécuter se trouve dans le fichier Downloads
@@ -216,12 +221,13 @@ L'utilisateur ici garde le contrôle de son OS.
 
 
 
-## FAQ-VNC
+### FAQ-VNC
 
-### Comment me connecter en toute sécurité à TightVNC ?
+#### Comment me connecter en toute sécurité à TightVNC ?
+
 Le protocole VNC par défaut n'est pas chiffré. Pour sécuriser votre session, vous devez établir une connexion via un SSH tunnel. Cela garantit la protection de vos données et de votre mot de passe pendant la transmission.
 
-### Comment puis‑je masquer l’icône de la zone de notification (systray) de mon serveur TightVNC ?
+#### Comment puis‑je masquer l’icône de la zone de notification (systray) de mon serveur TightVNC ?
 
 Ouvre la configuration de TightVNC, choisis l’onglet Server, décoche l’option Show icon in the notification area, puis clique sur OK.
 Pour réafficher l’icône, utilise l’un des raccourcis Control Interface ou Offline Configuration situés dans le groupe TightVNC du menu Démarrer > Tous les programmes.
@@ -230,6 +236,7 @@ Pour réafficher l’icône, utilise l’un des raccourcis Control Interface ou 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Utilisation OpenSSH
+<span id="Utilisation-OpenSSH"></span>
 
 ### Connexion au Serveur SSH
 
@@ -261,27 +268,29 @@ ssh-keygen -t ed25519 -a 100 -C "NomDuPosteClient"
 ssh-copy-id -i ~/.ssh/id_ed25519.pub utilisateur@ip_ou_domaine
 ```
 
-## FAQ-OPENSSH
-### Quels systèmes d’exploitation sont pris en charge ?
+### FAQ-OPENSSH
+
+#### Quels systèmes d’exploitation sont pris en charge ?
 
 Un aperçu rapide des autres systèmes d’exploitation pris en charge est ci-dessous.
  OpenBSD  NetBSD, FreeBSD, AIX,HP-UX, IRIX, Linux, NeXT, SCO, SNI/Unix Reliant, Solaris, Digital Unix/Tru64/OSF, MacOS X
 
 Liste des fournisseurs qui incluent OpenSSH dans leurs distributions : [www.openssh.com/users.html](http://heap.altlinux.org/usr/share/doc/openssh-3.6.1p2/users.html)
 
-### Pourquoi SSH 2.3 a-t-il des problèmes d’interopérabilité avec OpenSSH 2.1.1 ?
+#### Pourquoi SSH 2.3 a-t-il des problèmes d’interopérabilité avec OpenSSH 2.1.1 ?
 
 SSH 2.3 et les versions antérieures contiennent une faille dans leur implémentation HMAC. Leur code ne fournissait pas la sortie complète du bloc de données du digest, et il fournissait toujours 128 bits. Pour des digestions plus longues, cela empêchait SSH 2.3 d'interopérer avec OpenSSH.
 
 OpenSSH 2.2.0 détecte que SSH 2.3 présente ce défaut. Les Prochaines Versions vont corriger ce bug. Ou vous pouvez ajouter ce qui suit à SSH 2.3 _sshd2_config_.
 ``Mac hmac-md5``
 
-### SFTP/SCP échoue à la connexion, mais le SSH est correct.
+#### SFTP/SCP échoue à la connexion, mais le SSH est correct.
 
 SFTP et/ou SCP peuvent tomber en panne à la connexion si vous avez une initialisation de shell (.profile, .bashrc, .cshrc, etc.) qui produit une sortie pour les sessions non interactives. Cette sortie embrouille le client sftp/scp. Vous pouvez vérifier si cela se produit en exécutant :
 ``ssh yourhost /usr/bin/true``
 Si la commande ci-dessus produit une quelconque sortie, alors vous devez modifier votre initialisation du shell.
-### Pourquoi OpenSSH affiche-t-il : erreur du protocole de dispatch : type 20
+
+#### Pourquoi OpenSSH affiche-t-il : erreur du protocole de dispatch : type 20
 
 Des problèmes d’interopération ont été observés par les anciennes versions de OpenSSH ne supportant pas la reprogrammation de session. Cependant, le SSH 2.3 commercial essayait d'activer cette fonctionnalité, et vous pouviez constater que la connexion se fige ou voir le message d’erreur « **Erreur de protocole de dispatch : Type 20** ". Pour résoudre ce problème, soit il faut passer à une version récente d’OpenSSH ou désactivez la reprogrammation en ajoutant ce qui suit à la _ssh2_config_ ou _sshd2_config_ de votre SSH 2.3 commercial.
 ``RekeyIntervalSeconds 0``
