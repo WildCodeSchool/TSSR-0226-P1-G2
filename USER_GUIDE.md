@@ -149,7 +149,8 @@ Pour utiliser deux écrans ou plus, procédez comme suit :
 ------------------------------------------------
 
 # Utilisation de TightVNC
-Configuration de base pour utiliser les  fonctionnalités de TightVNC server.
+
+# Configuration de base pour utiliser les  fonctionnalités de TightVNC server.
 
 
 **1.** Ouverture du panneau de configuration de TightVNC server.
@@ -177,8 +178,7 @@ Le statut est bien en état de marche , vérifié par "running".
 ![[Pasted image 20260316192710.png]](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/main/Ressources/Configuration-TightVNC-server-6.png?raw=true)
 
 
-# Utilisation 
-Configuration de base pour utiliser les  fonctionnalités de TightVNC Java viewer.
+# Configuration de base pour utiliser les  fonctionnalités de TightVNC Java viewer.
 
 
 **1.** Le fichier a éxécuter se trouve dans le fichier Downloads
