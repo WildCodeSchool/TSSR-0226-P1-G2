@@ -21,6 +21,8 @@ La prise de contrôle se fait soit en GUI soit en CLI.
 
 Objectif secondaire : Sécuriser l'accès et la connexion
 
+![Schema synoptique Teleassitance](https://github.com/WildCodeSchool/TSSR-0226-P1-G2/blob/950d7fdc66c20f29cdcf57a5166c2702188fe1af/Ressources/Schema-synoptique-Teleassistance.png)
+
 ## Membres du groupe par sprint
 <span id="Présentation-du-projet"></span>
 ### Sprint 1
