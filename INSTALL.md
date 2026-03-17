@@ -129,7 +129,7 @@ ____
 
 **4**. Je me rend sur le site de TightVNC pour telecharger le client VNC qui est le suivant : TightVNC Java Viewer
 
-![[Pasted image 20260316112331.png]](_https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%204.png)
+![[Pasted image 20260316112331.png]](https://raw.githubusercontent.com/WildCodeSchool/TSSR-0226-P1-G2/6607b2922d092a8b9d6db3af30fcd7e9fba8dccb/Ressources/Install%20TightVNC%20linux%204.png)
 
 **5**. Une fois telechargé , je le decompresse via le terminal
 
