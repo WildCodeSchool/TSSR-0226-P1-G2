@@ -193,6 +193,12 @@ L'utilisateur ici garde le contrôle de son OS.
 ### Comment me connecter en toute sécurité à TightVNC ?
 Le protocole VNC par défaut n'est pas chiffré. Pour sécuriser votre session, vous devez établir une connexion via un SSH tunnel. Cela garantit la protection de vos données et de votre mot de passe pendant la transmission.
 
+### Comment puis‑je masquer l’icône de la zone de notification (systray) de mon serveur TightVNC ?
+
+Ouvre la configuration de TightVNC, choisis l’onglet Server, décoche l’option Show icon in the notification area, puis clique sur OK.
+Pour réafficher l’icône, utilise l’un des raccourcis Control Interface ou Offline Configuration situés dans le groupe TightVNC du menu Démarrer > Tous les programmes.
+
+
 ---
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
