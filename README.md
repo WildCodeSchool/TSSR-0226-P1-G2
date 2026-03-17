@@ -89,6 +89,7 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 
  - Se connecter avec le nom de la machine distante (au lieu de saisir l'adresse IP)
  - Lors de la prise de controle distante, les deux ecran basculent en fond noir.
+ - La configuration des machines cliente et serveur a rencontré pas mal de problemes lors du Sprint 1, ce qui a ajoutté une pression supplementaire aux membres de l'équipe et décalé la realisations des objectifs mis en places.
 
 ## Solutions trouvées
 <span id="Solution-trouvees"></span>
