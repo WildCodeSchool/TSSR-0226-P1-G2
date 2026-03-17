@@ -2,7 +2,7 @@
 
 - [Installation de PuTTY](#Installation-PuTTY)
 - [Installation OpenSSH](#Installation-OpenSSH)
-- [nstallation de TightVNC client et Serveur](#Installation-TightVNC)
+- [Installation de TightVNC client et Serveur](#Installation-TightVNC)
 - [Installation RDP](#Installation-RDP)
 
 *Vous retrouverez pour chaque outil **les prérequis techniques**, **les étapes d'installation et de configuration de ces derniers** et **une FAQ dédiée***
@@ -232,8 +232,8 @@ ____
 
 TightVNC fonctionne quasiment sur n’importe quelle version de Windows (les systèmes 32 et 64 bits sont pris en charge) :
 
-- Windows XP / Vista / 7 / 8 / 8.1 / 10 / 11,
-- versions correspondantes de Windows Server.
+1. Windows XP / Vista / 7 / 8 / 8.1 / 10 / 11,
+2. versions correspondantes de Windows Server.
 Sur Windows XP, vous devriez avoir le dernier Service Pack installé. Les systèmes Windows CE ne le sont pas soutenu.
 ## Quelle est la Configuration requise pour utiliser TightVNC
 
