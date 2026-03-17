@@ -8,6 +8,7 @@
 - [Solutions trouvées](#Solutions-trouvées)
 - [Améliorations possibles](#Améliorations-possibles)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Présentation du projet
 <span id="Présentation-du-projet"></span>
