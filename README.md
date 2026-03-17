@@ -92,11 +92,11 @@ Objectif secondaire : Sécuriser l'accès et la connexion
  - La configuration des machines cliente et serveur a rencontré pas mal de problemes lors du Sprint 1, ce qui a ajoutté une pression supplementaire aux membres de l'équipe et décalé la realisations des objectifs mis en places.
 
 ## Solutions trouvées
-<span id="Solution-trouvees"></span>
+<span id="Solutions-trouvees"></span>
  - Afin de garder l'environnement intact lors de la prise de contrôle décocher dans les option de configuration de TightVNC viewer  "cacher le papier-peint bureau".
 
 ## Améliorations possibles
-<span id="Amelioration-possibles"></span>
+<span id="Ameliorations-possibles"></span>
 
 Une solution payante aura plus de possibilitées de configuration car elle se doit d'être a la pointe de ce qu'elle propose a ses clients.
 
