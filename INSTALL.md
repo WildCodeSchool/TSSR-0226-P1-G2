@@ -193,6 +193,25 @@ ____
 
 ## FAQ - TightVNC
 
+### Quelles versions de Windows TightVNC supporte-t-il ?
+
+TightVNC fonctionne quasiment sur n’importe quelle version de Windows (les systèmes 32 et 64 bits sont pris en charge) :
+
+- Windows XP / Vista / 7 / 8 / 8.1 / 10 / 11,
+- versions correspondantes de Windows Server.
+Sur Windows XP, vous devriez avoir le dernier Service Pack installé. Les systèmes Windows CE ne le sont pas soutenu.
+## Quelle est la Configuration requise pour utiliser TightVNC
+
+Il n’y a pas d’espace disque, ni de RAM minimum . TightVNC utilise si peu d’espace et de mémoire qu’il peut tourner partout où Windows fonctionne.
+## Comment désinstaller TightVNC ?
+
+Normalement, TightVNC peut être retiré comme n’importe quel autre logiciel, depuis le panneau de configuration (Ajouter/Supprimer des programmes). Mais si quelque chose tourne mal, ou si TightVNC a été installé manuellement, vous Vous pouvez toujours le retirer manuellement en utilisant les procédures étape par étape ci-dessous : 
+1. Connectez-vous en tant qu’administrateur (ou en tant qu’utilisateur avec des permissions similaires).
+2. Si le serveur TightVNC tourne, fermez-le. Si l’icône du plateau tourne mais ne s’affiche pas, Choisissez Gestion des processus, localisez tous les processus tvnserver.exe et fermez chacun d’eux.
+3. Si TightVNC Server était enregistré comme service système, désenregistrez-le. Pour cela, localisez tvnserver.exe fichier sous \Program Files\TightVNC (ou là où TightVNC était installé), et Tapez dans la ligne de commande : tvnserver.exe -remove
+4. Supprimez tout le dossier \Program Files\TightVNC (ou là où se trouvait TightVNC).
+5. Supprimez tous les raccourcis TightVNC du menu Démarrer.
+6. Supprimez les paramètres du registre si vous le souhaitez. Les réglages se trouvent dans HKEY_LOCAL_MACHINE\Logiciel\TightVNC et/ou HKEY_CURRENT_USER\Logiciel\TightVNC
 
 
 ____
