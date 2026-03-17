@@ -50,6 +50,24 @@ Enfin dans la rubrique "Behaviour" nous vous invitons à reprendre le nom de vot
 
 ### FAQ PuTTY
 
+**Puis-je sauvegarder mon mot de passe SSH dans PuTTY ?**
+
+Non PuTTY ne permet pas la sauvegarde du mot de passe de votre session SSH pour des raisons de sécurité. Cependant il prends en charge l'authentification par clé publique, une solution plus flexible et sécurisé.
+
+**Comment copier-coller du texte dans PuTTY ?** 
+
+La copie se fait en sélectionnant le texte avec le clic gauche de la souris ; le texte est automatiquement copié dans le presse-papiers sans avoir à appuyer sur `Ctrl+C`.
+
+**Comment vérifier la version actuelle de PuTTY ?**
+
+Ouvre PuTTY > menu `Help` > `About` vous trouverez le numéro de version installé. La dernière version stable est actuellement la **0.83**.
+
+**Comment mettre à jour PuTTY  ?**
+
+1. Vérifier la version de PuTTY comme indiqué au point précédent.
+2. Télécharger la nouvelle version sur votre machine Windows et l'installer. La version précédente sera écrasée.
+3. En cas d'erreur vous pouvez désinstaller l'ancienne version de PuTTY dans le `panneau de configuration` puis relancer l'installation de la nouvelle version
+
 ## FAQ-RDP
 ### Pourquoi ne puis-je pas me connecter à l’aide du Bureau à distance ?
 
