@@ -1,4 +1,4 @@
-# TSSR-0226-P1-G2
+# PROJET TELEASSISTANCE - G2
 
 ## Sommaire
 - [Présentation du projet](#Présentation-du-projet)
