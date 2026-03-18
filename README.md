@@ -40,10 +40,10 @@ Objectif secondaire : Sécuriser l'accès et la connexion
 
 | Membres | Rôles      | Missions |
 | ------- | ---------- | -------- |
-| Aymeric | PO         | Documenter INSTALL.md, Documenter User_Guide.md documenter FAQ        |
-| Patrick | SM         | Documenter INSTALL.md; Docvumenter ReadMe.md                        |
-| Saiah   | Technicien | Tests techniques et fonctionnels Documenter INSTALL.md, schéma synoptique     |
-| Camille | Technicien | Tests techniques et fonctionnels Documenter INSTALL.md, documenter FAQ        |
+| Aymeric | PO         | Documenter INSTALL.md, Documenter User_Guide.md, documenter FAQ        |
+| Patrick | SM         | Documenter INSTALL.md, Documenter ReadMe.md                        |
+| Saiah   | Technicien | Tests techniques et fonctionnels, Documenter INSTALL.md, schéma synoptique     |
+| Camille | Technicien | Tests techniques et fonctionnels, Documenter INSTALL.md, documenter FAQ        |
 
 
 
