@@ -1,4 +1,4 @@
-# PROJET TELEASSISTANCE - G2
+# PROJET TÉLÉASSISTANCE - G2
 
 ## Sommaire
 - [Présentation du projet](#Présentation-du-projet)
