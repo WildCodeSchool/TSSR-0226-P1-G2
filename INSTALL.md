@@ -293,15 +293,14 @@ Pour recevoir les connexions RDP sur son ordinateur. Il faut activer le Bureau �
 
 Le protocole **RDP** pour (**Remote Desktop Protocol**) est un protocole qui permet de se connecter à distance à une autre machine (poste client ou serveur), en visualisant l’environnement graphique et les programmes de la machine distante.
 
-**Comprendre les Paramètres Avancés**:
+**Comprendre les Paramètres Avancés**
 **Partage de Ressources** :
-
 	- Lecteurs : Permet d'accéder aux disques locaux depuis le serveur distant
 	- Presse-papiers : Copier-coller entre local et distant
 	- Imprimantes : Utiliser vos imprimantes locales
 	- Ports : Redirection des ports série 
-**Optimisation des Performances** :
 	
+**Optimisation des Performances** :
 	- Connexion rapide : Désactiver le papier peint, les animations
 	- Connexion moyenne : Quelques effets visuels activés
 	- Connexion LAN : Tous les effets visuels activés 
