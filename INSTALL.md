@@ -300,8 +300,8 @@ Le protocole **RDP** pour (**Remote Desktop Protocol**) est un protocole qui per
 	- Presse-papiers : Copier-coller entre local et distant
 	- Imprimantes : Utiliser vos imprimantes locales
 	- Ports : Redirection des ports série 
-**Optimisation des Performances** : 
-
-- Connexion rapide : Désactiver le papier peint, les animations
-- Connexion moyenne : Quelques effets visuels activés
-- Connexion LAN : Tous les effets visuels activés 
+**Optimisation des Performances** :
+	
+	- Connexion rapide : Désactiver le papier peint, les animations
+	- Connexion moyenne : Quelques effets visuels activés
+	- Connexion LAN : Tous les effets visuels activés 
